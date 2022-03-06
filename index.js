@@ -12,17 +12,15 @@ if (hidden){
     menuBtn.classList.add("hidden")
 }
 
-console.log("Menu: ", menuBtn)
+
 menuBtn.addEventListener("click", () => {
 
-    console.log("Clicked", hidden)
+  
     if (!hidden){
         hidden = true
         header.classList.add("hidden")
-        console.log("yaa", hidden)
-
     }else{
-        console.log("hidd")
+
         hidden = false
         header.classList.remove("hidden")
     }
