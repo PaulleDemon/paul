@@ -12,6 +12,8 @@ if (hidden){
     menuBtn.classList.add("hidden")
 }
 
+headerLinks[0]?.classList.add("active-header-link")
+
 
 menuBtn.addEventListener("click", () => {
 
